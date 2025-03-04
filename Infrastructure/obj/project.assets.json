@@ -2768,11 +2768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jamie/Dev/Udemy/skinet/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/Users/jamie/Dev/skinet/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/Users/jamie/Dev/Udemy/skinet/Infrastructure/Infrastructure.csproj",
+      "projectPath": "/Users/jamie/Dev/skinet/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/Users/jamie/.nuget/packages/",
-      "outputPath": "/Users/jamie/Dev/Udemy/skinet/Infrastructure/obj/",
+      "outputPath": "/Users/jamie/Dev/skinet/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jamie/.nuget/NuGet/NuGet.Config"
@@ -2787,8 +2787,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/jamie/Dev/Udemy/skinet/Core/Core.csproj": {
-              "projectPath": "/Users/jamie/Dev/Udemy/skinet/Core/Core.csproj"
+            "/Users/jamie/Dev/skinet/Core/Core.csproj": {
+              "projectPath": "/Users/jamie/Dev/skinet/Core/Core.csproj"
             }
           }
         }

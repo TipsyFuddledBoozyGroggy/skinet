@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s5I8VI4l8D4=",
+  "dgSpecHash": "zDViVpIPiuc=",
   "success": true,
-  "projectFilePath": "/Users/jamie/Dev/Udemy/skinet/API/API.csproj",
+  "projectFilePath": "/Users/jamie/Dev/skinet/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/jamie/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/jamie/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
