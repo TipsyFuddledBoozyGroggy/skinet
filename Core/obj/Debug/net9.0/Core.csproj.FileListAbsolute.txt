@@ -9,3 +9,15 @@
 /Users/jamie/Dev/Udemy/skinet/Core/obj/Debug/net9.0/refint/Core.dll
 /Users/jamie/Dev/Udemy/skinet/Core/obj/Debug/net9.0/Core.pdb
 /Users/jamie/Dev/Udemy/skinet/Core/obj/Debug/net9.0/ref/Core.dll
+/Users/jamie/Dev/skinet/Core/bin/Debug/net9.0/Core.deps.json
+/Users/jamie/Dev/skinet/Core/bin/Debug/net9.0/Core.dll
+/Users/jamie/Dev/skinet/Core/bin/Debug/net9.0/Core.pdb
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/Core.AssemblyInfoInputs.cache
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/Core.AssemblyInfo.cs
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/Core.csproj.CoreCompileInputs.cache
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/Core.sourcelink.json
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/Core.dll
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/refint/Core.dll
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/Core.pdb
+/Users/jamie/Dev/skinet/Core/obj/Debug/net9.0/ref/Core.dll
