@@ -10,7 +10,6 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<StoreContext>(x =>
     x.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  
 
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 //Middleware
