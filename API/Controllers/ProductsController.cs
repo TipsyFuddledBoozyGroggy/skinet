@@ -1,5 +1,6 @@
 using Core.Entities;
 using Core.Interfaces;
+using Core.Specifications;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -11,7 +12,9 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts(string? brand, string? type, string? sort)
         {
-            return Ok(await repo.ListAllAsync());
+            var spec = new ProductSpecification(brand, type, sort);
+            var products = await repo.ListAsync(spec);
+            return Ok(products);
         }
 
         [HttpGet("{id:int}")]
@@ -22,7 +25,6 @@ namespace API.Controllers
             {
                 return NotFound();
             }
-
             return product;
         }
 
@@ -69,13 +71,15 @@ namespace API.Controllers
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
         {
-            return Ok();
+            var spec = new BrandListSpecification();
+            return Ok(await repo.ListAsync(spec));
         }
 
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
         {
-            return Ok();
+            var spec = new TypeListSpecification();
+            return Ok(await repo.ListAsync(spec));
         }
 
         private bool ProductExists(int id)
